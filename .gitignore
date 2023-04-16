@@ -1,0 +1,63 @@
+# Arquivos e diretórios a serem ignorados pelo Git
+
+# Arquivos de compilação
+*.o
+*.ko
+*.obj
+*.elf
+
+# Arquivos de backup e temporários
+*~
+*.swp
+*.log
+*.bak
+
+# Diretórios de build e saída
+/build/
+/dist/
+/out/
+
+# Dependências e arquivos gerados
+/node_modules/
+/bower_components/
+/yarn-error.log
+npm-debug.log
+
+# Arquivos de configuração e chaves de acesso
+*.config.js
+*.env
+*.pem
+*.p12
+
+# Arquivos de IDE e editor
+/.vscode/
+/.idea/
+*.sublime-*
+*.suo
+*.sln
+*.csproj
+*.user
+*.suo
+*.cache
+*.log
+
+# Arquivos de mídia e dados grandes
+*.mp3
+*.mp4
+*.avi
+*.mov
+*.zip
+*.tar
+*.gz
+
+# Arquivos de senhas e credenciais
+*.key
+*.pem
+*.p12
+*.pfx
+*.password
+*.secret
+
+# Outros arquivos e diretórios a serem ignorados
+# ...
+
