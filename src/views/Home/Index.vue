@@ -1,5 +1,5 @@
 <template>
-  <custom-header @login="handleLogin" />
+  <custom-header @login="handleLogin" @create-account="handleAccountCreate" />
 </template>
 
 <script>
@@ -27,7 +27,9 @@ export default {
            })
         }
          function handleAccountCreate () {
-            return
+            modal.open({
+            component: 'ModalAccountCreate'
+           })
         }
         return {
             handleLogin,

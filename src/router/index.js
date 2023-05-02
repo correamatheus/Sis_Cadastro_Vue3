@@ -7,6 +7,13 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/dashboard',
+    name: 'dashboard',
+    component: function() {
+      return import('../views/Dashboard/Index.vue')
+    }
+  }
   // {
   //   path: '/about',
   //   name: 'about',
